@@ -20,7 +20,7 @@ OWNERS = []
     end
 
   def say_species
-    puts "I am a #{OWNERS.species}"
+    puts "I am a #{Owner.species}"
   end
 
   def buy_fish(fish)
