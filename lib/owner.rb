@@ -12,7 +12,7 @@ OWNERS = []
     end
 
   def self.count
-    OWNERS.size
+    return OWNERS.size
   end
 
     def self.reset_all
