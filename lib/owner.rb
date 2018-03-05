@@ -12,8 +12,7 @@ OWNERS = []
     end
 
     def self.species
-      human = Owner.species
-      human = "human"
+      
     end
 
   def self.count
@@ -29,16 +28,17 @@ OWNERS = []
   end
 
   def buy_fish(fish)
-    pets[:fishes].count
+    pets[:fishes].size
     pets[:fishes].name
   end
 
   def buy_cat(cat)
-    pets[:cats].count
+    pets[:cats][0].size
+    pets[:cats][0].name
   end
 
   def buy_dog(dog)
-    pets[:dogs].count
+    pets[:dogs].size
   end
 
   def walk_dogs
