@@ -11,6 +11,8 @@ OWNERS = []
     @pets = {:fishes => [], :dogs => [], :cats => []}
     end
 
+    def self.species
+      Owner.species = "human"
   def self.count
     return self.size
   end
