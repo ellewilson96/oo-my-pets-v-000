@@ -16,11 +16,11 @@ OWNERS = []
     end
 
   def self.count
-    return self.size
+    return OWNERS.size
   end
 
     def self.reset_all
-      self.size -= self.size
+      OWNERS.size -= OWNERS.size
     end
 
   def say_species
