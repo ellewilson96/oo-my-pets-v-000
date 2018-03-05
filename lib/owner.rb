@@ -13,6 +13,8 @@ OWNERS = []
 
     def self.species
       Owner.species = "human"
+    end
+    
   def self.count
     return self.size
   end
