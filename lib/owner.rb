@@ -12,7 +12,7 @@ OWNERS = []
     end
 
     def self.species
-      
+
     end
 
   def self.count
