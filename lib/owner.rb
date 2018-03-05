@@ -12,7 +12,8 @@ OWNERS = []
     end
 
     def self.species
-      Owner.species = "human"
+      human = Owner.species
+      human = "human"
     end
 
   def self.count
