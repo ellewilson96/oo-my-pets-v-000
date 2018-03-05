@@ -16,7 +16,7 @@ OWNERS = []
   end
 
     def self.reset_all
-      OWNERS.size -= self.size
+      self.size -= self.size
     end
 
   def say_species
