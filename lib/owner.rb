@@ -4,15 +4,20 @@ class Owner
   attr_reader :species
 OWNERS = []
 
+
   def initialize(species)
     @species = species
     OWNERS << self
     @pets = {:fishes => [], :dogs => [], :cats => []}
     end
 
-  def self.reset_all
+  def self.count
     OWNERS.size
   end
+
+    def self.reset_all
+      OWNERS.size == 0
+    end
 
   def say_species
     puts "I am a human."
